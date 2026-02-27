@@ -1,5 +1,9 @@
 # armavita-originality-ai-mcp
 
+<p align="center">
+  <img src="docs/assets/armavita-originality-ai-mcp-hero-1080.jpg" alt="ArmaVita Originality AI MCP hero image" width="100%" />
+</p>
+
 <p align="center"><strong>Brought to you by <a href="https://armavita.com">ArmaVita.com</a></strong></p>
 <p align="center">Need a custom implementation? <a href="https://armavita.com">Contact us</a>.</p>
 
