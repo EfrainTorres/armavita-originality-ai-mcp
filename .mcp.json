@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "armavita-originality-ai": {
+      "command": "bash",
+      "args": ["./run.sh"]
+    }
+  }
+}

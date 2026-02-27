@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "armavita-originality-ai-mcp"
+version = "2.0.0"
+description = "Local-first MCP server for Originality.ai scanning workflows."
+readme = "README.md"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+authors = [{ name = "Armavita Maintainers" }]
+maintainers = [{ name = "Armavita Maintainers" }]
+keywords = ["mcp", "model-context-protocol", "originality-ai", "ai-detection", "plagiarism", "seo"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = [
+  "mcp==1.26.0",
+  "httpx==0.28.1",
+  "loguru==0.7.3"
+]
+
+[project.urls]
+Homepage = "https://github.com/EfrainTorres/armavita-originality-ai-mcp"
+Repository = "https://github.com/EfrainTorres/armavita-originality-ai-mcp"
+Issues = "https://github.com/EfrainTorres/armavita-originality-ai-mcp/issues"
+
+[project.scripts]
+armavita-originality-ai-mcp = "armavita_originality_ai_mcp.server:main"
+
+[project.optional-dependencies]
+dev = [
+  "build>=1.2.2",
+  "twine>=5.1.1",
+]
